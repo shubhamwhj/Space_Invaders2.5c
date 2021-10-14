@@ -2,10 +2,8 @@ import pygame, sys
 
 pygame.init()
 clock=pygame.time.Clock()
-
 screen = pygame.display.set_mode((400,600))
 
-#creating objects of game
 player=pygame.Rect(200,500,30,30)
 playerSpeed=20
 enemy=pygame.Rect(70,50,40,40)
@@ -21,7 +19,7 @@ while True:
             #Code to move the player towards left.
             if event.key == pygame.K_LEFT:
                 player.x -=playerSpeed
-            #Add code to move the player towards right.
+            #Add code here, to move the player towards right.
          
     enemy.x= enemy.x + enemyspeed
     
