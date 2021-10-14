@@ -18,8 +18,10 @@ while True:
             pygame.quit()
             sys.exit()
         if event.type == pygame.KEYDOWN:
+            #Code to move the player towards left.
             if event.key == pygame.K_LEFT:
                 player.x -=playerSpeed
+            #Add code to move the player towards right.
          
     enemy.x= enemy.x + enemyspeed
     
